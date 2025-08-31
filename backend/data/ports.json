@@ -1,0 +1,140 @@
+{
+  "ports": [
+    {
+      "name": "Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "coordinates": {"lat": 1.2905, "lon": 103.8520},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO", "ULSFO"],
+      "max_draft": 23.0,
+      "facilities": ["bulk", "container", "tanker", "lng", "lpg"],
+      "fees": {
+        "port_dues": 0.25,
+        "pilotage": 0.15,
+        "towage": 0.10,
+        "berth_fees": 0.08
+      },
+      "special_features": ["Free port", "Major bunkering hub", "Container transshipment"]
+    },
+    {
+      "name": "Rotterdam",
+      "country": "Netherlands",
+      "region": "Europe",
+      "coordinates": {"lat": 51.9225, "lon": 4.4792},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO", "ULSFO"],
+      "max_draft": 24.0,
+      "facilities": ["bulk", "container", "tanker", "lng", "lpg"],
+      "fees": {
+        "port_dues": 0.30,
+        "pilotage": 0.20,
+        "towage": 0.15,
+        "berth_fees": 0.12
+      },
+      "special_features": ["Deep water access", "Major European hub", "Green port initiatives"]
+    },
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "region": "Asia",
+      "coordinates": {"lat": 31.2304, "lon": 121.4737},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO"],
+      "max_draft": 17.5,
+      "facilities": ["bulk", "container", "tanker"],
+      "fees": {
+        "port_dues": 0.20,
+        "pilotage": 0.12,
+        "towage": 0.08,
+        "berth_fees": 0.06
+      },
+      "special_features": ["World's busiest container port", "Yangtze River access", "Major manufacturing hub"]
+    },
+    {
+      "name": "Houston",
+      "country": "USA",
+      "region": "Americas",
+      "coordinates": {"lat": 29.7604, "lon": -95.3698},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO"],
+      "max_draft": 14.0,
+      "facilities": ["bulk", "container", "tanker", "lng"],
+      "fees": {
+        "port_dues": 0.35,
+        "pilotage": 0.25,
+        "towage": 0.20,
+        "berth_fees": 0.15
+      },
+      "special_features": ["Major oil and gas hub", "Gulf Coast access", "Petrochemical center"]
+    },
+    {
+      "name": "Fujairah",
+      "country": "UAE",
+      "region": "Middle East",
+      "coordinates": {"lat": 25.1288, "lon": 56.3264},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO"],
+      "max_draft": 20.0,
+      "facilities": ["bulk", "tanker", "bunker"],
+      "fees": {
+        "port_dues": 0.18,
+        "pilotage": 0.10,
+        "towage": 0.08,
+        "berth_fees": 0.05
+      },
+      "special_features": ["Major bunkering hub", "Outside Strait of Hormuz", "Oil storage facilities"]
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "region": "Asia",
+      "coordinates": {"lat": 19.0760, "lon": 72.8777},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO"],
+      "max_draft": 16.0,
+      "facilities": ["bulk", "container", "tanker"],
+      "fees": {
+        "port_dues": 0.22,
+        "pilotage": 0.14,
+        "towage": 0.09,
+        "berth_fees": 0.07
+      },
+      "special_features": ["Major Indian port", "Gateway to South Asia", "Industrial center"]
+    },
+    {
+      "name": "Santos",
+      "country": "Brazil",
+      "region": "Americas",
+      "coordinates": {"lat": -23.9608, "lon": -46.3339},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO"],
+      "max_draft": 15.5,
+      "facilities": ["bulk", "container", "tanker"],
+      "fees": {
+        "port_dues": 0.28,
+        "pilotage": 0.18,
+        "towage": 0.12,
+        "berth_fees": 0.09
+      },
+      "special_features": ["Major Brazilian port", "Coffee and sugar exports", "South Atlantic access"]
+    },
+    {
+      "name": "Qingdao",
+      "country": "China",
+      "region": "Asia",
+      "coordinates": {"lat": 36.0671, "lon": 120.3826},
+      "bunker_available": true,
+      "bunker_types": ["IFO 380", "IFO 180", "MGO", "VLSFO"],
+      "max_draft": 18.0,
+      "facilities": ["bulk", "container", "tanker"],
+      "fees": {
+        "port_dues": 0.21,
+        "pilotage": 0.13,
+        "towage": 0.09,
+        "berth_fees": 0.07
+      },
+      "special_features": ["Yellow Sea access", "Major iron ore imports", "Industrial port"]
+    }
+  ]
+} 

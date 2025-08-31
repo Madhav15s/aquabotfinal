@@ -1,0 +1,184 @@
+{
+  "pda_templates": {
+    "dry_bulk": {
+      "port_charges": {
+        "port_dues": {"unit": "per ton", "rate": 0.25, "description": "Port dues and tonnage charges"},
+        "pilotage": {"unit": "per call", "rate": 0.15, "description": "Pilotage fees"},
+        "towage": {"unit": "per call", "rate": 0.10, "description": "Tug assistance fees"},
+        "berth_fees": {"unit": "per day", "rate": 0.08, "description": "Berth rental charges"}
+      },
+      "agency_services": {
+        "agency_fees": {"unit": "per call", "rate": 0.12, "description": "Ship agent commission"},
+        "documentation": {"unit": "per call", "rate": 0.05, "description": "Document processing fees"},
+        "communications": {"unit": "per call", "rate": 0.03, "description": "Communication and coordination"}
+      },
+      "cargo_operations": {
+        "stevedoring": {"unit": "per ton", "rate": 0.18, "description": "Cargo handling labor"},
+        "equipment": {"unit": "per day", "rate": 0.05, "description": "Cargo handling equipment"},
+        "security": {"unit": "per call", "rate": 0.06, "description": "Cargo security services"}
+      },
+      "supply_services": {
+        "fresh_water": {"unit": "per ton", "rate": 0.04, "description": "Fresh water supply"},
+        "provisions": {"unit": "per call", "rate": 0.07, "description": "Crew provisions"},
+        "waste_disposal": {"unit": "per call", "rate": 0.02, "description": "Garbage and waste removal"}
+      }
+    },
+    "tanker": {
+      "port_charges": {
+        "port_dues": {"unit": "per ton", "rate": 0.30, "description": "Port dues and tonnage charges"},
+        "pilotage": {"unit": "per call", "rate": 0.20, "description": "Pilotage fees"},
+        "towage": {"unit": "per call", "rate": 0.15, "description": "Tug assistance fees"},
+        "berth_fees": {"unit": "per day", "rate": 0.12, "description": "Berth rental charges"}
+      },
+      "agency_services": {
+        "agency_fees": {"unit": "per call", "rate": 0.15, "description": "Ship agent commission"},
+        "documentation": {"unit": "per call", "rate": 0.08, "description": "Document processing fees"},
+        "communications": {"unit": "per call", "rate": 0.05, "description": "Communication and coordination"}
+      },
+      "cargo_operations": {
+        "stevedoring": {"unit": "per ton", "rate": 0.22, "description": "Cargo handling labor"},
+        "equipment": {"unit": "per day", "rate": 0.08, "description": "Cargo handling equipment"},
+        "security": {"unit": "per call", "rate": 0.10, "description": "Cargo security services"}
+      },
+      "supply_services": {
+        "fresh_water": {"unit": "per ton", "rate": 0.06, "description": "Fresh water supply"},
+        "provisions": {"unit": "per call", "rate": 0.10, "description": "Crew provisions"},
+        "waste_disposal": {"unit": "per call", "rate": 0.04, "description": "Garbage and waste removal"}
+      }
+    },
+    "container": {
+      "port_charges": {
+        "port_dues": {"unit": "per teu", "rate": 0.15, "description": "Port dues and container charges"},
+        "pilotage": {"unit": "per call", "rate": 0.18, "description": "Pilotage fees"},
+        "towage": {"unit": "per call", "rate": 0.12, "description": "Tug assistance fees"},
+        "berth_fees": {"unit": "per day", "rate": 0.10, "description": "Berth rental charges"}
+      },
+      "agency_services": {
+        "agency_fees": {"unit": "per call", "rate": 0.14, "description": "Ship agent commission"},
+        "documentation": {"unit": "per call", "rate": 0.06, "description": "Document processing fees"},
+        "communications": {"unit": "per call", "rate": 0.04, "description": "Communication and coordination"}
+      },
+      "cargo_operations": {
+        "stevedoring": {"unit": "per teu", "rate": 0.25, "description": "Container handling labor"},
+        "equipment": {"unit": "per day", "rate": 0.08, "description": "Container handling equipment"},
+        "security": {"unit": "per call", "rate": 0.08, "description": "Container security services"}
+      },
+      "supply_services": {
+        "fresh_water": {"unit": "per ton", "rate": 0.05, "description": "Fresh water supply"},
+        "provisions": {"unit": "per call", "rate": 0.08, "description": "Crew provisions"},
+        "waste_disposal": {"unit": "per call", "rate": 0.03, "description": "Garbage and waste removal"}
+      }
+    }
+  },
+  "regional_multipliers": {
+    "asia": {
+      "singapore": 1.0,
+      "shanghai": 1.1,
+      "mumbai": 0.9,
+      "default": 1.0
+    },
+    "europe": {
+      "rotterdam": 1.3,
+      "london": 1.4,
+      "hamburg": 1.35,
+      "default": 1.3
+    },
+    "americas": {
+      "houston": 1.2,
+      "santos": 1.1,
+      "vancouver": 1.25,
+      "default": 1.2
+    },
+    "middle_east": {
+      "fujairah": 0.9,
+      "jeddah": 0.95,
+      "default": 0.9
+    },
+    "africa": {
+      "cape_town": 1.1,
+      "lagos": 1.05,
+      "default": 1.1
+    }
+  },
+  "vessel_size_multipliers": {
+    "handysize": 0.8,
+    "supramax": 0.9,
+    "panamax": 1.0,
+    "capesize": 1.3,
+    "vlcc": 1.5,
+    "aframax": 1.2
+  },
+  "cargo_type_multipliers": {
+    "coal": 1.0,
+    "iron_ore": 1.05,
+    "grain": 1.0,
+    "oil": 1.1,
+    "lng": 1.2,
+    "lpg": 1.15,
+    "containers": 1.1
+  },
+  "seasonal_factors": {
+    "peak_season": {
+      "multiplier": 1.1,
+      "months": ["September", "October", "November", "December"],
+      "description": "Peak shipping season - higher demand"
+    },
+    "off_peak": {
+      "multiplier": 0.95,
+      "months": ["January", "February", "March"],
+      "description": "Off-peak season - lower demand"
+    },
+    "monsoon": {
+      "multiplier": 1.05,
+      "months": ["June", "July", "August"],
+      "description": "Monsoon season - weather challenges"
+    }
+  },
+  "additional_charges": {
+    "canal_fees": {
+      "suez": {"unit": "per ton", "rate": 8.5, "description": "Suez Canal transit fees"},
+      "panama": {"unit": "per ton", "rate": 5.25, "description": "Panama Canal transit fees"}
+    },
+    "special_services": {
+      "ice_breaking": {"unit": "per call", "rate": 0.50, "description": "Ice breaking services"},
+      "escort_tugs": {"unit": "per call", "rate": 0.30, "description": "Additional tug escort"},
+      "night_operations": {"unit": "per call", "rate": 0.20, "description": "Night operation surcharge"}
+    },
+    "environmental": {
+      "emission_control": {"unit": "per call", "rate": 0.15, "description": "Emission control area compliance"},
+      "waste_recycling": {"unit": "per call", "rate": 0.08, "description": "Enhanced waste recycling services"}
+    }
+  },
+  "cost_breakdown_examples": {
+    "panamax_coal_singapore": {
+      "vessel_type": "panamax",
+      "cargo_type": "coal",
+      "port": "singapore",
+      "cargo_quantity": 75000,
+      "port_days": 3,
+      "total_cost": 18750,
+      "breakdown": {
+        "port_charges": 7500,
+        "agency_services": 3750,
+        "cargo_operations": 13500,
+        "supply_services": 3000
+      }
+    },
+    "capesize_iron_ore_rotterdam": {
+      "vessel_type": "capesize",
+      "cargo_type": "iron_ore",
+      "port": "rotterdam",
+      "cargo_quantity": 180000,
+      "port_days": 4,
+      "total_cost": 46800,
+      "breakdown": {
+        "port_charges": 14400,
+        "agency_services": 7200,
+        "cargo_operations": 21600,
+        "supply_services": 3600
+      }
+    }
+  },
+  "last_updated": "2024-01-15T10:00:00Z",
+  "data_source": "mock_data"
+} 

@@ -1,0 +1,148 @@
+{
+  "market_data": {
+    "indices": {
+      "bdi": {
+        "current": 1250,
+        "previous": 1180,
+        "change": "+5.9%",
+        "trend": "rising",
+        "52_week_high": 1450,
+        "52_week_low": 850,
+        "description": "Baltic Dry Index - measures dry bulk shipping rates"
+      },
+      "ccfi": {
+        "current": 1250,
+        "previous": 1240,
+        "change": "+0.8%",
+        "trend": "stable",
+        "52_week_high": 1350,
+        "52_week_low": 1100,
+        "description": "China Containerized Freight Index"
+      },
+      "bcti": {
+        "current": 850,
+        "previous": 870,
+        "change": "-2.3%",
+        "trend": "falling",
+        "52_week_high": 950,
+        "52_week_low": 750,
+        "description": "Baltic Clean Tanker Index"
+      }
+    },
+    "freight_rates": {
+      "dry_bulk": {
+        "panamax": {
+          "coal": {"current": 18.5, "previous": 17.8, "trend": "rising"},
+          "grain": {"current": 22.0, "previous": 21.5, "trend": "rising"},
+          "iron_ore": {"current": 20.5, "previous": 19.8, "trend": "rising"}
+        },
+        "capesize": {
+          "iron_ore": {"current": 25.0, "previous": 24.2, "trend": "rising"},
+          "coal": {"current": 22.5, "previous": 21.8, "trend": "rising"},
+          "bauxite": {"current": 24.0, "previous": 23.5, "trend": "rising"}
+        },
+        "supramax": {
+          "grain": {"current": 19.5, "previous": 19.0, "trend": "rising"},
+          "coal": {"current": 17.0, "previous": 16.5, "trend": "rising"},
+          "fertilizer": {"current": 18.5, "previous": 18.0, "trend": "rising"}
+        },
+        "handysize": {
+          "grain": {"current": 16.5, "previous": 16.0, "trend": "rising"},
+          "coal": {"current": 15.0, "previous": 14.5, "trend": "rising"},
+          "steel": {"current": 17.0, "previous": 16.5, "trend": "rising"}
+        }
+      },
+      "tankers": {
+        "vlcc": {
+          "crude_oil": {"current": 35.0, "previous": 34.5, "trend": "stable"},
+          "fuel_oil": {"current": 32.0, "previous": 31.5, "trend": "stable"}
+        },
+        "aframax": {
+          "crude_oil": {"current": 28.0, "previous": 27.5, "trend": "stable"},
+          "fuel_oil": {"current": 26.0, "previous": 25.5, "trend": "stable"}
+        }
+      },
+      "containers": {
+        "asia_europe": {"current": 1200, "previous": 1250, "trend": "falling"},
+        "asia_americas": {"current": 1800, "previous": 1850, "trend": "falling"},
+        "europe_americas": {"current": 800, "previous": 850, "trend": "falling"}
+      }
+    },
+    "bunker_prices": {
+      "ifo_380": {
+        "current": 450,
+        "previous": 445,
+        "change": "+1.1%",
+        "trend": "rising",
+        "unit": "USD per metric ton"
+      },
+      "ifo_180": {
+        "current": 480,
+        "previous": 475,
+        "change": "+1.1%",
+        "trend": "rising",
+        "unit": "USD per metric ton"
+      },
+      "mgo": {
+        "current": 750,
+        "previous": 745,
+        "change": "+0.7%",
+        "trend": "rising",
+        "unit": "USD per metric ton"
+      },
+      "vlsfo": {
+        "current": 520,
+        "previous": 515,
+        "change": "+1.0%",
+        "trend": "rising",
+        "unit": "USD per metric ton"
+      },
+      "ulsfo": {
+        "current": 580,
+        "previous": 575,
+        "change": "+0.9%",
+        "trend": "rising",
+        "unit": "USD per metric ton"
+      }
+    },
+    "market_trends": {
+      "dry_bulk": {
+        "trend": "rising",
+        "drivers": ["Strong grain exports", "Iron ore demand recovery", "Coal trade growth"],
+        "outlook": "Positive for next quarter",
+        "risks": ["Economic slowdown", "Trade tensions", "Weather disruptions"]
+      },
+      "tankers": {
+        "trend": "stable",
+        "drivers": ["Steady oil demand", "Geopolitical factors", "Fleet supply balance"],
+        "outlook": "Stable with upside potential",
+        "risks": ["Oil price volatility", "Sanctions", "Environmental regulations"]
+      },
+      "containers": {
+        "trend": "falling",
+        "drivers": ["Consumer demand decline", "Inventory destocking", "Economic uncertainty"],
+        "outlook": "Continued pressure expected",
+        "risks": ["Recession risk", "Supply chain disruptions", "Capacity oversupply"]
+      }
+    },
+    "regional_analysis": {
+      "asia_pacific": {
+        "trend": "mixed",
+        "strengths": ["Strong manufacturing", "Growing consumption", "Strategic location"],
+        "weaknesses": ["Trade tensions", "Currency volatility", "Regulatory changes"]
+      },
+      "europe": {
+        "trend": "stable",
+        "strengths": ["Established trade routes", "Diversified economy", "Green initiatives"],
+        "weaknesses": ["Economic uncertainty", "Regulatory burden", "Energy dependency"]
+      },
+      "americas": {
+        "trend": "rising",
+        "strengths": ["Energy independence", "Strong consumer market", "Trade agreements"],
+        "weaknesses": ["Inflation concerns", "Political uncertainty", "Supply chain issues"]
+      }
+    },
+    "last_updated": "2024-01-15T10:00:00Z",
+    "data_source": "mock_data"
+  }
+} 

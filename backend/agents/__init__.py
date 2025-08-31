@@ -1,1 +1,1 @@
-# Agents package for IME Hub Maritime AI Assistant 
+# Maritime AI Assistant Agents Package 
